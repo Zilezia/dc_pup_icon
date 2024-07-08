@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="200" height="200" viewBox="-100 -100 200 200"
+>
+    <defs>
+        <g id="tree">
+            <polygon points="10,0 0,-50 -10,0" fill="#387"/>
+            <line x1='0' x2='0' y1='0' y2='10' stroke='#784948'/>
+        </g>
+        <circle id="big" cx="0" cy="0" r="5" fill="white"/>
+        <circle id="small" cx="0" cy="0" r="3" fill="white"/>
+    </defs>
+    <!-- bg -->
+    <rect x="-100" y='-100'
+        width="200" height="200" 
+        fill="#F1DBC3"
+    />
+    <circle cy='330' cx='15' r='300' fill='#8f7356'/>
+    <!-- trees -->
+    <use href="#tree" x="-30" y="25" transform="scale(2)" />
+    <use href="#tree" x="-20" y="40" transform="scale(1.2)" />
+    <use href="#tree" x="40" y="40" />
+    <use href="#tree" x="50" y="30" transform="scale(1.5)" />
+    <!-- snow -->
+    <use href="#big" x='0' y='0' class='flake fast'/>        
+</svg>

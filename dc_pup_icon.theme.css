@@ -1,5 +1,5 @@
 [aria-label="Wycisz"][aria-checked="true"]::after {
-  /* content: ''; */
+  content: '';
   background: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/24x24_box.png');
   display: block;
   width: 24px;
@@ -10,8 +10,8 @@
 }
 
 [aria-label="Wycisz"][aria-checked="false"]::after {
-  /* content: ''; */
-  background: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/24x24_box2.png');
+  content: '';
+  background: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/speak.svg');
   display: block;
   width: 24px;
   height: 24px;
