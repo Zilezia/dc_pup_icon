@@ -1,21 +1,19 @@
 [aria-label="Wycisz"][aria-checked="true"]::after {
-  content: '';
-  background: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/24x24_box.png');
-  display: block;
+  content: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/24x24_box.png');
   width: 24px;
   height: 24px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 [aria-label="Wycisz"][aria-checked="false"]::after {
-  content: '';
-  background: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/speak.svg');
-  display: block;
+  content: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/speak.svg');
   width: 24px;
   height: 24px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
