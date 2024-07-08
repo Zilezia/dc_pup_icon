@@ -1,10 +1,33 @@
+/**
+ * @name         Dog Speaking Icon
+ * @description  Replaces the microphone/mute icon with a puppy!
+ * @author       zilezia
+ * @version      1.0.0
+ * @website      https://github.com/Zilezia/dc_pup_icon
+ * @source       https://github.com/Zilezia/dc_pup_icon/dc_pup_icon.theme.css
+ * @authorId     1243256216977936477
+*/
+
+/* Disappears the mic icon */
+
 [aria-label="Wycisz"]> div > div > svg {
   display: none;
 }
 
+/* Uses the svg instead if muted or unmuted */
+
 [aria-label="Wycisz"][aria-checked="false"]::after {
   content: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/24x24_speak.svg');
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
 }
+
 [aria-label="Wycisz"][aria-checked="true"]::after {
-  content: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/24x24_muzzle.svg');
+  content: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/24x24_muzzle.svg'); /* planning on making the muzzle im just too tired atm to try to make it */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
 }
