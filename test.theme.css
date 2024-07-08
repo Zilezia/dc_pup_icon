@@ -1,0 +1,10 @@
+.button_f67531::after {
+  content: '';
+  background: url('https://raw.githubusercontent.com/Zilezia/vencord_css_test/main/24x24_box.png');
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute:
+  top: 0;
+  left: 0;
+}
