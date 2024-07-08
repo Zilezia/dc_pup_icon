@@ -1,0 +1,10 @@
+.button_f67531:nth-child(1):after {
+  content: '';
+  background: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/24x24_box.png');
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 0;
+  left: -12px;
+}
