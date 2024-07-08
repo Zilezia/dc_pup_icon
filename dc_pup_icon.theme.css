@@ -1,5 +1,5 @@
-.button_f67531:nth-child(1):after {
-  content: '';
+[aria-label="Mute"][aria-checked="true"] {
+  /* content: ''; */
   background: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/24x24_box.png');
   display: block;
   width: 24px;
