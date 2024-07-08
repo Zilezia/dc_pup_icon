@@ -1,19 +1,10 @@
-[aria-label="Wycisz"][aria-checked="true"]::after {
-  content: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/24x24_box.png');
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+[aria-label="Wycisz"]> div > div > svg {
+  display: none;
 }
 
 [aria-label="Wycisz"][aria-checked="false"]::after {
-  content: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/256x256_speak.png'); /* 24x24_speak.svg */
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  content: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/24x24_speak.svg');
+}
+[aria-label="Wycisz"][aria-checked="true"]::after {
+  content: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/24x24_muzzle.svg');
 }
