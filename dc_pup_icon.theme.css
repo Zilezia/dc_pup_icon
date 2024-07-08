@@ -9,7 +9,7 @@
 }
 
 [aria-label="Wycisz"][aria-checked="false"]::after {
-  content: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/speak.svg');
+  content: url('https://raw.githubusercontent.com/Zilezia/dc_pup_icon/main/assets/256x256_speak.png'); /* 24x24_speak.svg */
   width: 24px;
   height: 24px;
   position: absolute;
